@@ -42,6 +42,7 @@ type Result struct {
 	Created                            string   `json:"created"`
 	CustomerIdentifierMatch            string   `json:"customeridentifiermatch"`
 	CustPhoneInBillingLoc              string   `json:"custphoneInbillingloc"`
+	DeviceIDRiskLevel                  string   `json:"deviceIdRiskLevel"`
 	DOB                                string   `json:"dob"`
 	DomainAge                          string   `json:"domainAge"`
 	DomainCategory                     string   `json:"domaincategory"`
